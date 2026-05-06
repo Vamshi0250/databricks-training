@@ -97,7 +97,5 @@ having count(*) > 1;
 select department_id, avg(salary)
 from Employee group by department_id
 having avg(salary) > 50000;
-
-
-    WHERE department_id = e.department_id
+WHERE department_id = e.department_id
 );
